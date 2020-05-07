@@ -3,9 +3,9 @@ let s:base01 = [ '#af0000', 18 ]
 let s:base02 = [ '#008700', 19 ]
 let s:base03 = [ '#5f8700',  8 ]
 let s:base04 = [ '#0087af', 20 ]
-let s:base05 = [ '#878787',  7 ]
+let s:base05 = [ '#444444',  7 ]
 let s:base06 = [ '#005f87', 21 ]
-let s:base07 = [ '#444444', 15 ] " white
+let s:base07 = [ '#878787', 15 ] " white
 
 let s:base08 = [ '#bcbcbc',  1 ] " red
 let s:base09 = [ '#d70000', 16 ] " orange
@@ -22,13 +22,13 @@ let s:p.normal.left     = [ [ s:base00, s:base0D ], [ s:base05, s:base02 ] ]
 let s:p.insert.left     = [ [ s:base01, s:base0B ], [ s:base05, s:base02 ] ]
 let s:p.visual.left     = [ [ s:base00, s:base09 ], [ s:base05, s:base02 ] ]
 let s:p.replace.left    = [ [ s:base00, s:base08 ], [ s:base05, s:base02 ] ]
-let s:p.inactive.left   = [ [ s:base02, s:base00 ] ]
+let s:p.inactive.left   = [ [ s:base07, s:base01 ] ]
 
 let s:p.normal.middle   = [ [ s:base07, s:base01 ] ]
-let s:p.inactive.middle = [ [ s:base01, s:base00 ] ]
+let s:p.inactive.middle = [ [ s:base07, s:base01 ] ]
 
 let s:p.normal.right    = [ [ s:base01, s:base03 ], [ s:base06, s:base02 ] ]
-let s:p.inactive.right  = [ [ s:base01, s:base00 ] ]
+let s:p.inactive.right  = [ [ s:base07, s:base01 ] ]
 
 let s:p.normal.error    = [ [ s:base07, s:base08 ] ]
 let s:p.normal.warning  = [ [ s:base07, s:base09 ] ]
